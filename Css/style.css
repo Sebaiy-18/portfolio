@@ -1,0 +1,341 @@
+body {
+    font-family: 'Changa', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Chakra Petch', sans-serif;
+}
+h2 {
+    color: #2E0249;
+}
+.title span {
+    color: tomato;
+    font-size: 1.3rem;
+}
+
+/* .title h2 {
+    color: #2E0249;
+} */
+
+a {
+    text-decoration: none;
+
+}
+
+.sec-p {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+nav ul li {
+    font-size: 1.4rem;
+
+}
+
+
+/* /////////////////    start head    ///////////////////// */
+
+#head {
+    background-image: url('../images/wave\ \(1\).svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #2E0249;
+
+}
+
+#head .content span {
+    font-size: 2.4rem;
+    color: #E5B8F4;
+}
+
+#head h1 {
+    font-size: 4.2rem;
+    font-weight: 800;
+    color: #E5B8F4;
+    text-shadow: 5px 10px 5px #2E0249;
+}
+
+#head .content .cv:hover {
+    background-color: #2E0249;
+}
+
+#head .gif figure img {
+    transition: 1s;
+    box-shadow: 12px 12px 20px 12px #000000af;
+}
+
+/* /////////////////    End head    ///////////////////// */
+
+/* /////////////////    start about    ///////////////////// */
+#about .pic .about-img{
+    background: rgba(255, 255, 255, 0.382);
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.348);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 2px solid rgba(185, 185, 185, 0.3);
+}
+#about .pic img {
+background-image: url('../images/mancha-acuarela-abstracta-colorida_1035-18218.jpg');
+background-position: center;
+background-size: cover;
+}
+/* /////////////////    End about    ///////////////////// */
+
+
+
+/* /////////////////    start Education    ///////////////////// */
+#Education{
+    background-color: rgba(239, 239, 239, 0.523);
+}
+#Education .tab-content .content h2{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+#Education .tab-content .content p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+#Education .tab-pane .card {
+    background: rgba(255, 255, 255, 0.382);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 2px solid rgba(185, 185, 185, 0.3);
+}
+#Education  .nav-link {
+    color: #000;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+#Education .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: white !important;
+    background-color: #2E0249;
+}
+#Education .container .content a{
+    color: #2E0249;
+    transition: 0.5s;
+}
+#Education .container .content a:hover{
+    color: #E5B8F4;
+}
+
+#Education .container  .item{
+    background: rgba(255, 255, 255, 0.382);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 2px solid rgba(185, 185, 185, 0.3);
+}
+#Education .container  .item i{
+    font-size: 30px;
+    color: #2E0249;
+}
+#Education .container  .item .text{
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 6px;
+}
+/* /////////////////    End Education    ///////////////////// */
+
+
+/* /////////////////    start Skills    ///////////////////// */
+
+#Skills   .nav-link {
+    color: #000;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+#Skills .head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Skills .head h2{
+    max-width: 600px;
+    text-align: center;
+
+}
+#Skills .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: white !important;
+    background-color: #2E0249;
+}
+#Skills .container .f-end .all-item .item {
+    background: rgba(255, 255, 255, 0.382);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 2px solid rgba(185, 185, 185, 0.3);
+}
+
+#Skills .container .f-end .all-item .item img {
+    filter: drop-shadow(1px 1px 3px #000);
+}
+#Skills .container .b-end .all-item .layer h2::after {
+    content: "";
+    animation: 6s infinite typing;
+    font-weight: 400;
+    font-size: 2.1rem;
+}
+@keyframes typing {
+    5% {
+        content: "S|"
+    }
+
+    10% {
+        content: "So|"
+    }
+
+    20% {
+        content: "Soo|"
+    }
+
+    30% {
+        content: "Soon|"
+    }
+
+}
+#Skills .container .b-end .all-item .item{
+    filter: blur(8px);
+}
+#Skills .container .b-end .all-item .item {
+    background: rgba(255, 255, 255, 0.382);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 2px solid rgba(185, 185, 185, 0.3);
+}
+
+#Skills .container .b-end .all-item .item img {
+    filter: drop-shadow(1px 1px 3px #000);
+}
+#Skills .container .Tools .all-item .item {
+    background: rgba(255, 255, 255, 0.382);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 2px solid rgba(185, 185, 185, 0.3);
+}
+#Skills .container .f-end .all-item .bstrap{
+    filter: blur(8px);
+}
+#Skills .container .f-end .all-item .react{
+    filter: blur(8px);
+}
+
+#Skills .container .Tools .all-item .item img {
+    filter: drop-shadow(1px 1px 3px #000);
+}
+#Skills .container .Tools .all-item .item a{
+    color: #000;
+}
+#Skills .container .Tools .all-item .item a:hover{
+    color: #E5B8F4;
+}
+/* /////////////////    End Skills    ///////////////////// */
+
+/* /////////////////    start Projects     ///////////////////// */
+#Projects{
+    background-color: rgba(239, 239, 239, 0.523);
+}
+#Projects .about-project {
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-bottom: 10px;
+}
+
+#Projects .img-area img {
+    width: 100%;
+    transition: .4s;
+    filter: drop-shadow(1px 1px 8px #000);
+}
+
+#Projects .about-project .img-text a{
+    color: #000000af;
+    transition: 1s;
+}
+#Projects .about-project .img-text a:hover{
+    color: #000;
+    font-weight: 800;
+    letter-spacing: 0.6rem;
+}
+#Projects .img-area {
+    position: relative;
+}
+
+#Projects .img-area .social {
+    background-color: rgba(0, 0, 0, 0.595);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 135px;
+    left: 0;
+    top: 0px;
+    visibility: hidden;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity .4s cubic-bezier(0.36, 0, 0.66, -0.56) 0s;
+
+}
+
+#Projects .about-project:hover .social {
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+#Projects .img-area .social a {
+    font-size: 2rem;
+    letter-spacing: 20px;
+    color: white;
+
+}
+
+#Projects .img-area .social a:hover {
+    color: #E5B8F4;
+}
+
+/* /////////////////    End Projects    ///////////////////// */
+
+/* /////////////////    Start footer    ///////////////////// */
+
+footer{
+    background-color: #000000cf;
+    color: white;
+}
+footer .social a{
+    color: white;
+    font-size: 1.8rem;
+    letter-spacing: 0.6rem;
+}
+footer .social a:hover{
+    color: #E5B8F4;
+
+}
+footer .cp-right {
+    letter-spacing: .5rem;
+}
+
+/* /////////////////    End footer    ///////////////////// */
